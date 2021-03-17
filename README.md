@@ -1,6 +1,9 @@
 # Diabetes Prediction App 
 Please use the below link to access the APP :
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]
+[Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
+
+App is deployed in Heroku, hit the link below to access it :
+https://diabetes-prediction--app.herokuapp.com/
 
 Streamlit Web App to predict the onset of diabetes based on diagnostic measures. 
 
@@ -44,6 +47,8 @@ docker run --publish 8051:8051 -it diabetespredictionapp:1.0
 - models/ : trained model and scaler objects
 - data/ : source data
 - Dockerfile : To create the Docker image.
+- setup.sh : Setup file for Heroku.
+- Procfile : To trigger the app in Heroku.
 
 ## Summary
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset.

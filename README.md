@@ -38,11 +38,12 @@ docker build --tag diabetespredictionapp:1.0 .
 docker run --publish 8051:8051 -it diabetespredictionapp:1.0
 ```
 ## Files
-- /notebook/Prima_Indians_Diabetes_Prediction.ipynb : Jupyter Notebook with all the workings including pre-processing, modelling and inference.
-- /app.py : Streamlit App script
-- /requirements.txt : pre-requiste libraries for the project
-- /models/ : trained model and scaler objects
-- /data/ : source data
+- notebook/Prima_Indians_Diabetes_Prediction.ipynb : Jupyter Notebook with all the workings including pre-processing, modelling and inference.
+- app.py : Streamlit App script
+- requirements.txt : pre-requiste libraries for the project
+- models/ : trained model and scaler objects
+- data/ : source data
+- Dockerfile : To create the Docker image.
 
 ## Summary
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset.

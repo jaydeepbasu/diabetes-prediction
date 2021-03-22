@@ -1,11 +1,9 @@
 # Diabetes Prediction App 
-Please use the below link to access the APP :
-[Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
 
-App is deployed in Heroku, hit the link below to access it :
-https://diabetes-prediction--app.herokuapp.com/
+A Web App to predict the onset of diabetes based on diagnostic measures. 
 
-Streamlit Web App to predict the onset of diabetes based on diagnostic measures. 
+App is deployed in Heroku, click the link to access it : [Open in Heroku](https://diabetes-prediction--app.herokuapp.com/)
+
 
 ## Data
 
